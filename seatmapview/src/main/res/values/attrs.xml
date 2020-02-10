@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SeatView">
+        <attr name="seatLocationX" format="dimension" />
+        <attr name="seatLocationY" format="dimension"/>
+        <attr name="seatText" format="string"/>
+        <attr name="seatTextSize" format="dimension"/>
+        <attr name="seatTextColor" format="color"/>
+        <attr name="seatColor" format="color"/>
+        <attr name="seatShape" format="enum">
+            <enum name="circle" value="1"/>
+            <enum name="rect" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>
